@@ -15,10 +15,10 @@ display: grid;
 gap:2rem;
 background-color: var(--clr-background);
 color:var(--clr-white);
-@media (min-width: 700px){
+@media (min-width: 800px){
  grid-template-columns: repeat(2,1fr); 
 }
-@media (min-width: 1200px){
+@media (min-width: 1300px){
  grid-template-columns: repeat(3,1fr); 
 }
 `
